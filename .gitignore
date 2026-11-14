@@ -1,0 +1,23 @@
+# Secrets & API keys
+.env
+.env.*
+!.env.example
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local incremental run state
+state/
+state/*.json
+output/
+*.lock
+.*.lock
+.permit-radar-stage-*/
+*.tmp
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
